@@ -1,16 +1,16 @@
-package com.example.java_multithreading;
+package com.howie.TheoreticalBasis;
 
+import com.howie.TheoreticalBasis.Model.ThreadTest;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import java.util.*;
 import java.util.concurrent.*;
 
 @SpringBootApplication
-public class JavaMultithreadingApplication {
+public class ThreadUse {
 
     public static void main(String[] args) throws ExecutionException, InterruptedException {
-        SpringApplication.run(JavaMultithreadingApplication.class, args);
+        SpringApplication.run(ThreadUse.class, args);
 
         //1.互斥锁的实现
         //threadLockTest();

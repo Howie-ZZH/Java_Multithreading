@@ -1,10 +1,10 @@
-package com.example.java_multithreading;
+package com.howie;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class JavaMultithreadingApplicationTests {
+class JavaMultithreadingBaseTests {
 
     @Test
     void contextLoads() {

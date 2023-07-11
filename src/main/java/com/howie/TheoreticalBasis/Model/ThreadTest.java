@@ -1,4 +1,4 @@
-package com.example.java_multithreading;
+package com.howie.TheoreticalBasis.Model;
 
 public class ThreadTest {
 
@@ -12,7 +12,7 @@ public class ThreadTest {
         }
     }
 
-    void syncObjectAdd() {
+    public void syncObjectAdd() {
         //synchronized线程互斥同步
         //同步这个类，当创建了不同对象的时候，不同对象调用此方法也会同步
         synchronized (ThreadTest.class) {
